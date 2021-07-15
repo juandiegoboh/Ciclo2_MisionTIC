@@ -1,2 +1,2 @@
 # Ciclo 2 MisionTIC
-Ciclo de Mision TIC enfocado a la programación en java
+Fundamentos de programación en java, ejercicios de lógica de programación y retos.
