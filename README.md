@@ -1,2 +1,2 @@
-# Ciclo2_MisionTIC
+# Ciclo 2 MisionTIC
 Ciclo de Mision TIC enfocado a la programación en java
