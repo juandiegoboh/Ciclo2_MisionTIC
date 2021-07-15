@@ -18,12 +18,13 @@ public class Contador {
 
     public Contador(final Contador copia){
         // Código del método
+        this.cont = copia.cont;
     }
 
     // Métodos funciones
 
     public int getCont() {
-        return cont;
+        return this.cont;
     }
 
     public void setCont(int cont) {
