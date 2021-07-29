@@ -28,15 +28,37 @@ public class Contador {
     }
 
     public void setCont(int cont) {
-        this.cont = cont;
+        if(cont < 0){
+            this.cont = 0;
+        } else {
+            this.cont = cont;
+        }
     }
 
-    public void incremetar(){
+    public void incrementar(){
         // Código
+        this.cont ++;
+    }
+
+    public void incrementar(int cont){
+        this.cont += cont;
+    }
+
+    public void incrementar(String cont){
+        this.cont += Integer.valueOf(cont);
     }
 
     public void decrementar(){
         // Código
+        // Generaria un error ya que se permitirian numeros negativos, no hay una constricción
+        this.cont --;
+        if (this.cont < 0){
+            this.cont = 0;
+        }
+    }
+
+    public void decrementar(int cont){
+        this.cont -= cont;
     }
 }
 
