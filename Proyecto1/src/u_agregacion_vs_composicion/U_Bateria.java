@@ -16,6 +16,6 @@ public class U_Bateria {
     // Métodos
     public void informacionBateria(){
         System.out.println("Referencia Batería: " + this.refBat);
-        System.out.println("Amperaje Batería: " + this.ampBat);
+        System.out.println("Amperaje Batería: " + this.ampBat + " mAmp");
     }
 }
